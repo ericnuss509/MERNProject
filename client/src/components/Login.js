@@ -51,11 +51,12 @@ const newUser = (e) => {
                 <div>
                     <label htmlFor='password'>Password</label>     
                     <input type='text' name='password' onChange={formChange} />
-                    <button type="button" class="btn btn-primary color:lightcyan;">Register</button>
+                    <button type="button" class="btn btn-primary " style={{backgroundColor:"lightcyan" , color: "black" , border: "1px solid lightcyan" }}>Register</button>
                 </div>
             </form>
         </div>
     )
+    //updating branch 
 }
 
 export default Login
